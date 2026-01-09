@@ -1,0 +1,7 @@
+deployment:
+  imageRepo: kiransaiveerandi/catalogue
+  imageVersion: v1
+configmap:
+  redis_host: "redis"
+  atalogue_host: "catalogue"
+  catalogue_port: "8080"
